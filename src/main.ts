@@ -9,14 +9,10 @@ function randInt(min: number, max: number): number {
   return min + Math.round(Math.random() * (max - min));
 }
 let a:number = 1;
-console.log("start");
 
 for (let i:number = 0; i<5000000000/2; i++){
   a++;
 }
-
-console.log("další");
-
 
 let userInput:number = 0;
 let correctGuess:boolean = false;
